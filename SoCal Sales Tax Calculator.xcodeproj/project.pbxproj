@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E4FBA481F284D500034B749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FBA471F284D500034B749 /* AppDelegate.swift */; };
+		1E4FBA4A1F284D500034B749 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FBA491F284D500034B749 /* ViewController.swift */; };
+		1E4FBA4D1F284D500034B749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E4FBA4B1F284D500034B749 /* Main.storyboard */; };
+		1E4FBA501F284D500034B749 /* SoCal_Sales_Tax_Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FBA4E1F284D500034B749 /* SoCal_Sales_Tax_Calculator.xcdatamodeld */; };
+		1E4FBA521F284D500034B749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E4FBA511F284D500034B749 /* Assets.xcassets */; };
+		1E4FBA551F284D500034B749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E4FBA531F284D500034B749 /* LaunchScreen.storyboard */; };
+		1E4FBA601F284D510034B749 /* SoCal_Sales_Tax_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FBA5F1F284D510034B749 /* SoCal_Sales_Tax_CalculatorTests.swift */; };
+		1E4FBA6B1F284D510034B749 /* SoCal_Sales_Tax_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FBA6A1F284D510034B749 /* SoCal_Sales_Tax_CalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E4FBA5C1F284D510034B749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E4FBA3C1F284D500034B749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E4FBA431F284D500034B749;
+			remoteInfo = "SoCal Sales Tax Calculator";
+		};
+		1E4FBA671F284D510034B749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E4FBA3C1F284D500034B749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E4FBA431F284D500034B749;
+			remoteInfo = "SoCal Sales Tax Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E4FBA441F284D500034B749 /* SoCal Sales Tax Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SoCal Sales Tax Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E4FBA471F284D500034B749 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E4FBA491F284D500034B749 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E4FBA4C1F284D500034B749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E4FBA4F1F284D500034B749 /* SoCal_Sales_Tax_Calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SoCal_Sales_Tax_Calculator.xcdatamodel; sourceTree = "<group>"; };
+		1E4FBA511F284D500034B749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E4FBA541F284D500034B749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E4FBA561F284D500034B749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E4FBA5B1F284D510034B749 /* SoCal Sales Tax CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoCal Sales Tax CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E4FBA5F1F284D510034B749 /* SoCal_Sales_Tax_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoCal_Sales_Tax_CalculatorTests.swift; sourceTree = "<group>"; };
+		1E4FBA611F284D510034B749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E4FBA661F284D510034B749 /* SoCal Sales Tax CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoCal Sales Tax CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E4FBA6A1F284D510034B749 /* SoCal_Sales_Tax_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoCal_Sales_Tax_CalculatorUITests.swift; sourceTree = "<group>"; };
+		1E4FBA6C1F284D510034B749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E4FBA411F284D500034B749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E4FBA581F284D510034B749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E4FBA631F284D510034B749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E4FBA3B1F284D500034B749 = {
+			isa = PBXGroup;
+			children = (
+				1E4FBA461F284D500034B749 /* SoCal Sales Tax Calculator */,
+				1E4FBA5E1F284D510034B749 /* SoCal Sales Tax CalculatorTests */,
+				1E4FBA691F284D510034B749 /* SoCal Sales Tax CalculatorUITests */,
+				1E4FBA451F284D500034B749 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E4FBA451F284D500034B749 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E4FBA441F284D500034B749 /* SoCal Sales Tax Calculator.app */,
+				1E4FBA5B1F284D510034B749 /* SoCal Sales Tax CalculatorTests.xctest */,
+				1E4FBA661F284D510034B749 /* SoCal Sales Tax CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E4FBA461F284D500034B749 /* SoCal Sales Tax Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				1E4FBA471F284D500034B749 /* AppDelegate.swift */,
+				1E4FBA491F284D500034B749 /* ViewController.swift */,
+				1E4FBA4B1F284D500034B749 /* Main.storyboard */,
+				1E4FBA511F284D500034B749 /* Assets.xcassets */,
+				1E4FBA531F284D500034B749 /* LaunchScreen.storyboard */,
+				1E4FBA561F284D500034B749 /* Info.plist */,
+				1E4FBA4E1F284D500034B749 /* SoCal_Sales_Tax_Calculator.xcdatamodeld */,
+			);
+			path = "SoCal Sales Tax Calculator";
+			sourceTree = "<group>";
+		};
+		1E4FBA5E1F284D510034B749 /* SoCal Sales Tax CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E4FBA5F1F284D510034B749 /* SoCal_Sales_Tax_CalculatorTests.swift */,
+				1E4FBA611F284D510034B749 /* Info.plist */,
+			);
+			path = "SoCal Sales Tax CalculatorTests";
+			sourceTree = "<group>";
+		};
+		1E4FBA691F284D510034B749 /* SoCal Sales Tax CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E4FBA6A1F284D510034B749 /* SoCal_Sales_Tax_CalculatorUITests.swift */,
+				1E4FBA6C1F284D510034B749 /* Info.plist */,
+			);
+			path = "SoCal Sales Tax CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E4FBA431F284D500034B749 /* SoCal Sales Tax Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E4FBA6F1F284D510034B749 /* Build configuration list for PBXNativeTarget "SoCal Sales Tax Calculator" */;
+			buildPhases = (
+				1E4FBA401F284D500034B749 /* Sources */,
+				1E4FBA411F284D500034B749 /* Frameworks */,
+				1E4FBA421F284D500034B749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SoCal Sales Tax Calculator";
+			productName = "SoCal Sales Tax Calculator";
+			productReference = 1E4FBA441F284D500034B749 /* SoCal Sales Tax Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E4FBA5A1F284D510034B749 /* SoCal Sales Tax CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E4FBA721F284D510034B749 /* Build configuration list for PBXNativeTarget "SoCal Sales Tax CalculatorTests" */;
+			buildPhases = (
+				1E4FBA571F284D510034B749 /* Sources */,
+				1E4FBA581F284D510034B749 /* Frameworks */,
+				1E4FBA591F284D510034B749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E4FBA5D1F284D510034B749 /* PBXTargetDependency */,
+			);
+			name = "SoCal Sales Tax CalculatorTests";
+			productName = "SoCal Sales Tax CalculatorTests";
+			productReference = 1E4FBA5B1F284D510034B749 /* SoCal Sales Tax CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E4FBA651F284D510034B749 /* SoCal Sales Tax CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E4FBA751F284D510034B749 /* Build configuration list for PBXNativeTarget "SoCal Sales Tax CalculatorUITests" */;
+			buildPhases = (
+				1E4FBA621F284D510034B749 /* Sources */,
+				1E4FBA631F284D510034B749 /* Frameworks */,
+				1E4FBA641F284D510034B749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E4FBA681F284D510034B749 /* PBXTargetDependency */,
+			);
+			name = "SoCal Sales Tax CalculatorUITests";
+			productName = "SoCal Sales Tax CalculatorUITests";
+			productReference = 1E4FBA661F284D510034B749 /* SoCal Sales Tax CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E4FBA3C1F284D500034B749 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Justin Kim";
+				TargetAttributes = {
+					1E4FBA431F284D500034B749 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9C9DFKJ6LM;
+						ProvisioningStyle = Automatic;
+					};
+					1E4FBA5A1F284D510034B749 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9C9DFKJ6LM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1E4FBA431F284D500034B749;
+					};
+					1E4FBA651F284D510034B749 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9C9DFKJ6LM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1E4FBA431F284D500034B749;
+					};
+				};
+			};
+			buildConfigurationList = 1E4FBA3F1F284D500034B749 /* Build configuration list for PBXProject "SoCal Sales Tax Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E4FBA3B1F284D500034B749;
+			productRefGroup = 1E4FBA451F284D500034B749 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E4FBA431F284D500034B749 /* SoCal Sales Tax Calculator */,
+				1E4FBA5A1F284D510034B749 /* SoCal Sales Tax CalculatorTests */,
+				1E4FBA651F284D510034B749 /* SoCal Sales Tax CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E4FBA421F284D500034B749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E4FBA551F284D500034B749 /* LaunchScreen.storyboard in Resources */,
+				1E4FBA521F284D500034B749 /* Assets.xcassets in Resources */,
+				1E4FBA4D1F284D500034B749 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E4FBA591F284D510034B749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E4FBA641F284D510034B749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E4FBA401F284D500034B749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E4FBA4A1F284D500034B749 /* ViewController.swift in Sources */,
+				1E4FBA501F284D500034B749 /* SoCal_Sales_Tax_Calculator.xcdatamodeld in Sources */,
+				1E4FBA481F284D500034B749 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E4FBA571F284D510034B749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E4FBA601F284D510034B749 /* SoCal_Sales_Tax_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E4FBA621F284D510034B749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E4FBA6B1F284D510034B749 /* SoCal_Sales_Tax_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E4FBA5D1F284D510034B749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E4FBA431F284D500034B749 /* SoCal Sales Tax Calculator */;
+			targetProxy = 1E4FBA5C1F284D510034B749 /* PBXContainerItemProxy */;
+		};
+		1E4FBA681F284D510034B749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E4FBA431F284D500034B749 /* SoCal Sales Tax Calculator */;
+			targetProxy = 1E4FBA671F284D510034B749 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E4FBA4B1F284D500034B749 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E4FBA4C1F284D500034B749 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E4FBA531F284D500034B749 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E4FBA541F284D500034B749 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E4FBA6D1F284D510034B749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E4FBA6E1F284D510034B749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E4FBA701F284D510034B749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9C9DFKJ6LM;
+				INFOPLIST_FILE = "SoCal Sales Tax Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "justinkim.SoCalSalesTaxCalculator.SoCal-Sales-Tax-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1E4FBA711F284D510034B749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9C9DFKJ6LM;
+				INFOPLIST_FILE = "SoCal Sales Tax Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "justinkim.SoCalSalesTaxCalculator.SoCal-Sales-Tax-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1E4FBA731F284D510034B749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9C9DFKJ6LM;
+				INFOPLIST_FILE = "SoCal Sales Tax CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "justinkim.SoCalSalesTaxCalculator.SoCal-Sales-Tax-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoCal Sales Tax Calculator.app/SoCal Sales Tax Calculator";
+			};
+			name = Debug;
+		};
+		1E4FBA741F284D510034B749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9C9DFKJ6LM;
+				INFOPLIST_FILE = "SoCal Sales Tax CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "justinkim.SoCalSalesTaxCalculator.SoCal-Sales-Tax-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoCal Sales Tax Calculator.app/SoCal Sales Tax Calculator";
+			};
+			name = Release;
+		};
+		1E4FBA761F284D510034B749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9C9DFKJ6LM;
+				INFOPLIST_FILE = "SoCal Sales Tax CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "justinkim.SoCalSalesTaxCalculator.SoCal-Sales-Tax-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "SoCal Sales Tax Calculator";
+			};
+			name = Debug;
+		};
+		1E4FBA771F284D510034B749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9C9DFKJ6LM;
+				INFOPLIST_FILE = "SoCal Sales Tax CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "justinkim.SoCalSalesTaxCalculator.SoCal-Sales-Tax-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "SoCal Sales Tax Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E4FBA3F1F284D500034B749 /* Build configuration list for PBXProject "SoCal Sales Tax Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E4FBA6D1F284D510034B749 /* Debug */,
+				1E4FBA6E1F284D510034B749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E4FBA6F1F284D510034B749 /* Build configuration list for PBXNativeTarget "SoCal Sales Tax Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E4FBA701F284D510034B749 /* Debug */,
+				1E4FBA711F284D510034B749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E4FBA721F284D510034B749 /* Build configuration list for PBXNativeTarget "SoCal Sales Tax CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E4FBA731F284D510034B749 /* Debug */,
+				1E4FBA741F284D510034B749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E4FBA751F284D510034B749 /* Build configuration list for PBXNativeTarget "SoCal Sales Tax CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E4FBA761F284D510034B749 /* Debug */,
+				1E4FBA771F284D510034B749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1E4FBA4E1F284D500034B749 /* SoCal_Sales_Tax_Calculator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1E4FBA4F1F284D500034B749 /* SoCal_Sales_Tax_Calculator.xcdatamodel */,
+			);
+			currentVersion = 1E4FBA4F1F284D500034B749 /* SoCal_Sales_Tax_Calculator.xcdatamodel */;
+			path = SoCal_Sales_Tax_Calculator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1E4FBA3C1F284D500034B749 /* Project object */;
+}
