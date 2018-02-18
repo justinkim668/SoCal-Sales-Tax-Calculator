@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E1700671F29294100A34E14 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E1700661F29294100A34E14 /* CoreLocation.framework */; };
 		1E4FBA481F284D500034B749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FBA471F284D500034B749 /* AppDelegate.swift */; };
 		1E4FBA4A1F284D500034B749 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FBA491F284D500034B749 /* ViewController.swift */; };
 		1E4FBA4D1F284D500034B749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E4FBA4B1F284D500034B749 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E1700661F29294100A34E14 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		1E4FBA441F284D500034B749 /* SoCal Sales Tax Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SoCal Sales Tax Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E4FBA471F284D500034B749 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E4FBA491F284D500034B749 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E1700671F29294100A34E14 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E1700651F29294100A34E14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E1700661F29294100A34E14 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1E4FBA3B1F284D500034B749 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +94,7 @@
 				1E4FBA5E1F284D510034B749 /* SoCal Sales Tax CalculatorTests */,
 				1E4FBA691F284D510034B749 /* SoCal Sales Tax CalculatorUITests */,
 				1E4FBA451F284D500034B749 /* Products */,
+				1E1700651F29294100A34E14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -520,6 +532,7 @@
 				1E4FBA711F284D510034B749 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E4FBA721F284D510034B749 /* Build configuration list for PBXNativeTarget "SoCal Sales Tax CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +541,7 @@
 				1E4FBA741F284D510034B749 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E4FBA751F284D510034B749 /* Build configuration list for PBXNativeTarget "SoCal Sales Tax CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +550,7 @@
 				1E4FBA771F284D510034B749 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
